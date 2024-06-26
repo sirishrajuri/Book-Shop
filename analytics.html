@@ -6,8 +6,37 @@
 <title>Analytics - FictionBooks</title>
 <link rel="stylesheet" href="styles.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
 </head>
 <body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i>FictionBo<span>ok.io</span></a>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="nav-header-2">
+                <a href="./index.html">Home</a>
+                <a href="./index.html#Featured-books">Featured</a>
+                <a href="./index.html#Arrivals-books">Arrivals</a>
+                <a href="./index.html#Reviews-books">Reviews</a>
+                <a href="./index.html#Blogs-books">About Us</a>
+                <a href="./index.html/analytics.html">Analytics</a>
+            </nav>
+        </div>
+    </header>
     <div class="chart-row">
         <div class="chart-container">
             <canvas id="genrePieChart"></canvas>
